@@ -10,11 +10,15 @@
         "start": "grunt"
     },
     "devDependencies": {
+        "@dopustim/coffeelint-config": "^1.0.0",
         "coffeescript": "^2.6.1",
         "grunt": "^1.4.1",
         "grunt-cli": "^1.4.3",
         "grunt-contrib-coffee": "^2.1.0",
         "grunt-contrib-pug": "^3.0.0",
         "grunt-contrib-watch": "^1.1.0"
+    },
+    "coffeelintConfig": {
+        "extends": "@dopustim/coffeelint-config"
     }
 }
