@@ -1,0 +1,19 @@
+{
+    "name": "DopustimVladimir.github.io",
+    "description": "Personal website",
+    "homepage": "https://DopustimVladimir.github.io/",
+    "author": "DopustimVladimir",
+    "license": "ISC",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "start": "grunt"
+    },
+    "devDependencies": {
+        "coffeescript": "^2.6.1",
+        "grunt": "^1.4.1",
+        "grunt-cli": "^1.4.3",
+        "grunt-contrib-pug": "^3.0.0",
+        "grunt-contrib-watch": "^1.1.0"
+    }
+}
