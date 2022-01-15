@@ -1,0 +1,15 @@
+name: Lint
+on:
+  pull_request:
+    branches: [ main ]
+jobs:
+  Lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: 16
+      - run: npm ci
+      - run: npx stylelint src/styles/**/*.styl
+      - run: npx coffeelint src/scripts/**/*.coffee
