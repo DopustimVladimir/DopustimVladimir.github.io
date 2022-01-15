@@ -29,6 +29,10 @@ module.exports = (grunt) ->
     grunt.loadNpmTasks 'grunt-contrib-pug'
     grunt.loadNpmTasks 'grunt-contrib-stylus'
     grunt.loadNpmTasks 'grunt-contrib-watch'
+    # Build task
+    grunt.registerTask 'build', [
+        'pug', 'stylus', 'coffee'
+    ]
     # Default task
     grunt.registerTask 'default', [
         'pug', 'stylus', 'coffee', 'watch'
