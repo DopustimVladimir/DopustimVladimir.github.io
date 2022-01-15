@@ -1,4 +1,4 @@
 
 # Personal website
 
-Link: [dopustimvladimir.github.io](https://dopustimvladimir.github.io/)
+[dopustimvladimir.github.io](https://dopustimvladimir.github.io/)
