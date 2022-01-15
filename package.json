@@ -12,6 +12,8 @@
     },
     "devDependencies": {
         "@dopustim/coffeelint-config": "^1.0.0",
+        "@dopustim/stylelint-config": "^1.0.0",
+        "coffeelint": "^2.1.0",
         "coffeescript": "^2.6.1",
         "grunt": "^1.4.1",
         "grunt-cli": "^1.4.3",
@@ -26,12 +28,21 @@
         "extends": "@dopustim/coffeelint-config"
     },
     "stylelint": {
-        "extends": [ "@dopustim/stylelint-config", "stylelint-plugin-stylus/standard" ],
-        "plugins": [ "stylelint-plugin-stylus" ],
-        "overrides": [ {
-            "files": [ "src/styles/**/*.styl" ],
-            "customSyntax": "postcss-styl"
-        } ],
+        "extends": [
+            "@dopustim/stylelint-config",
+            "stylelint-plugin-stylus/standard"
+        ],
+        "plugins": [
+            "stylelint-plugin-stylus"
+        ],
+        "overrides": [
+            {
+                "files": [
+                    "src/styles/**/*.styl"
+                ],
+                "customSyntax": "postcss-styl"
+            }
+        ],
         "rules": {
             "stylus/color-hex-case": "upper",
             "stylus/declaration-colon": "always",
