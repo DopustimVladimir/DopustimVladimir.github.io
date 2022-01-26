@@ -11,8 +11,8 @@
         "build": "grunt build"
     },
     "devDependencies": {
-        "@dopustim/coffeelint-config": "^1.0.0",
-        "@dopustim/stylelint-config": "^1.0.0",
+        "@dopustim/coffeelint-config": "^1.1.0",
+        "@dopustim/stylelint-config": "^1.1.0",
         "coffeelint": "^2.1.0",
         "coffeescript": "^2.6.1",
         "grunt": "^1.4.1",
@@ -21,7 +21,7 @@
         "grunt-contrib-pug": "^3.0.0",
         "grunt-contrib-stylus": "^1.2.0",
         "grunt-contrib-watch": "^1.1.0",
-        "stylelint": "^14.2.0",
+        "stylelint": "^14.3.0",
         "stylelint-plugin-stylus": "^0.13.1"
     },
     "coffeelintConfig": {
